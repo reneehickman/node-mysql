@@ -1,5 +1,5 @@
 # Bamazon (node-mysql)
-Bamazon is an Amazon-like storefront CLI application created using `Node.js`, `MySQL` & `inquirer` NPM. Output is styled with `Chalk` and `tty-table` NPM's. This app takes in customer orders, calculates the sales price, and depletes stock from the store's Inventory. 
+Bamazon is an Amazon-like storefront CLI application created using `Node.js`, `MySQL` & `inquirer` npm. Output is styled with `Chalk` and `tty-table` NPM's. This app takes in customer orders, calculates the sales price, and depletes stock from the store's Inventory. 
 
 `.gitignore` is used to hide database username and password which are stored locally and kept safe through abstraction with `.env`, requiring users to provide their own MySQL username and password if they intend to use the app. 
 
@@ -18,13 +18,13 @@ Running the `node bamazonCustomer.js` command displays all items available for s
 #### Manager View
 Running the `node bamazonManager.js` command lists a set of menu options. 
 1. `View Products for Sale` 
-    * If `View Products for Sale` is selected, the app lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
+    * If View Products for Sale is selected, the app lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
 2. `View Low Inventory`
-    * If `View Low Inventory` is selected, the app lists all items with an inventory count lower than five.
+    * If View Low Inventory is selected, the app lists all items with an inventory count lower than five.
 3. `Add to Inventory` 
-    * If `Add to Inventory` is selected, the app displays a prompt that lets the user add more of any item currently in the store.
+    * If Add to Inventory is selected, the app displays a prompt that lets the user add more of any item currently in the store.
 4. `Add New Product` 
-    * If `Add New Product` is selected, the app allows the user to add a completely new product to the store.
+    * If Add New Product is selected, the app allows the user to add a completely new product to the store.
 
 ### Technology/Dependencies 
 * JavaScript: https://www.javascript.com/
