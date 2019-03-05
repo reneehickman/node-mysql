@@ -18,13 +18,13 @@ Running the `node bamazonCustomer.js` command displays all items available for s
 #### Manager View
 Running the `node bamazonManager.js` command lists a set of menu options. 
 1. `View Products for Sale` 
-    * If View Products for Sale is selected, the app lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
+    * This option lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
 2. `View Low Inventory`
-    * If View Low Inventory is selected, the app lists all items with an inventory count lower than five.
+    * This option lists all items with an inventory count lower than five.
 3. `Add to Inventory` 
-    * If Add to Inventory is selected, the app displays a prompt that lets the user add more of any item currently in the store.
+    * This option displays a prompt that lets the user add more of any item currently in the store.
 4. `Add New Product` 
-    * If Add New Product is selected, the app allows the user to add a completely new product to the store.
+    * This option allows the user to add a completely new product to the store.
 
 ### Technology/Dependencies 
 * JavaScript: https://www.javascript.com/
