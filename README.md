@@ -16,15 +16,15 @@ Running the `node bamazonCustomer.js` command displays all items available for s
 ![Manager View Gif](screenRecordManager.gif)
 
 #### Manager View
-Running the `node bamazonManager.js` command lists a set of menu options. 
+Running the `node bamazonManager.js` command lists a set of 4 menu options. 
 1. `View Products for Sale` 
-    * This option lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
+    * Lists every available item showing their `ID`, `Product Name`, `Price` and `Stock` amount.
 2. `View Low Inventory`
-    * This option lists all items with an inventory count lower than five.
+    * Lists all items with an inventory count lower than five.
 3. `Add to Inventory` 
-    * This option displays a prompt that lets the user add more of any item currently in the store.
+    * Displays a prompt that lets the user add more of any item currently in the store.
 4. `Add New Product` 
-    * This option allows the user to add a completely new product to the store.
+    * Allows the user to add a completely new product to the store.
 
 ### Technology/Dependencies 
 * JavaScript: https://www.javascript.com/
