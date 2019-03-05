@@ -175,7 +175,7 @@ function repromptUser() {
         if (answer.reply) {
             queryAllProducts();
         } else {
-            console.log("See you soon!");
+            console.log("See you again soon!");
             connection.end();
         }
     });
